@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>volinterregister</title>
+	<style type="text/css">
+		input{
+			width: 100px;
+			height: 25px;
+			border-radius: 20px;
+			border:2px solid green;
+			width:50%;
+		}
+		label{
+			color:red;
+			text-align: left;
+			font-family: bold;
+			font-size: 30px;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h1> volunteer register</h1>
+	</center>
+<div style="text-align-last:center">
+	
+	<form method="post" action="vre.php">
+		<label>name:</label><input type="text" name="name" required >
+		<br>
+		<br>
+		<label>phone:</label><input type="number" name="pho" min="10">
+		<br>
+		<br>
+		<label>email:</label><input type="mail" name="mail" >
+		<br>
+		<br><label>amount:</label>
+		
+		<input type="amount" name="pass" >
+		<br>
+		<br>
+		<input style="color: green;" type="submit" name="submit" >
+		<br>
+		<br>
+	</form>
+</div>
+</body>
+</html>
